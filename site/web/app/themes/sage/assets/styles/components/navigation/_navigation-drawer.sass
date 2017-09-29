@@ -14,17 +14,20 @@ header
     float: left
     position: fixed
     z-index: 999
+    box-shadow: 0 3px 8px rgba(0,0,0,.25)
     div.mobile-toggle 
       input 
         cursor: pointer
         display: block
-        height: 32px
-        left: -7px
+        height: 50px
+        // left: -7px
+        left: 0
         position: absolute
         opacity: 0
-        top: -7px
+        // top: -7px
+        top: 0
         -webkit-touch-callout: none
-        width: 40px
+        width: 70px
         z-index: 2
       
       input:checked ~ ul 
@@ -46,7 +49,7 @@ header
       span 
         background: #cdcdcd
         border-radius: 3px
-        display: block
+        display: none
         height: 4px
         left: 1em
         margin-bottom: 5px
@@ -62,7 +65,12 @@ header
         
         &:nth-last-child(2) 
           transform-origin: 0% 100%
-        
+      .navigation-drawer-menu-button
+        z-index: 1
+        color: #993333
+        background: white
+        position: relative
+        padding: 1em
       ul.menu 
         background: #ededed
         box-shadow: 0 3px 8px rgba(0, 0, 0, .25)

@@ -4,6 +4,7 @@
        <span></span>
        <span></span>
        <span></span>
+       <div class="navigation-drawer-menu-button">Menu</div>
        <?php
        $args = array('menu_class' => 'menu', 'container' => false);
        wp_nav_menu($args);
