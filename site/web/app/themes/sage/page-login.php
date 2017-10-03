@@ -1,5 +1,5 @@
 <?php 
 /**
-* Template Name: Login Page
+* Template Name: Logdadin Page
 */
 ?>

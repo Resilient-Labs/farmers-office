@@ -43,7 +43,6 @@
     "wpackagist-plugin/secupress": "1.3.3",
     "wpackagist-plugin/custom-post-type-ui": "1.5.5",
     "wpackagist-plugin/safe-redirect-manager": "1.7.8",
-    "wpackagist-plugin/uncanny-learndash-toolkit": "2.1",
     "wp-sync-db/wp-sync-db": "dev-master@dev",
     "wp-sync-db/wp-sync-db-media-files": "dev-master",
     "afragen/github-updater": "^7.2"
