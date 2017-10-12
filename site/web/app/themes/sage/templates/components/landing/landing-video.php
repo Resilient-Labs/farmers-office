@@ -14,7 +14,7 @@
                 <?php endif; ?>
             <?php endwhile; ?>
         <?php endif; ?>
-    </ul>
+    </ul> 
 
     <?php if (get_field('brochure')) : ?>
         <a href="<?php the_field('brochure'); ?>" download>Download Brochure</a>
