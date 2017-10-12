@@ -1,0 +1,97 @@
+0000.008 () Opened log file at time: Tue, 10 Oct 2017 23:19:47 +0000 on http://farmers-office.dev/wp
+0000.009 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.13.1.1 WP: 4.7.3 PHP: 7.0.24-1+ubuntu16.04.1+deb.sury.org+1 (fpm-fcgi, Linux farmers-office 4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 09:04:33 UTC 2017 x86_64) MySQL: 5.5.5 WPLANG: en_US Server: nginx/1.13.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.1M | 2M) multisite: N openssl: OpenSSL 1.1.0f  25 May 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.009 () Free space on disk containing Updraft's temporary directory: 205111.4 MB
+0000.011 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":true,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.066 () Entity: db
+0000.066 () restore_backup(backup_file=backup_2017-10-10-2236_farmersofficecom_5aad3e3fafa2-db.gz, type=db, info=a:0:{}, last_one=)
+0000.066 () Unpacking backup... (backup_2017-10-10-2236_farmersofficecom_5aad3e3fafa2-db.gz, 0.2 Mb)
+0000.076 () Database successfully unpacked
+0000.079 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.080 () Using direct MySQL access; value of use_mysqli is: 1
+0000.108 () Tried to raise max_allowed_packet from 1 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.109 () Max packet size: 1 MB
+0000.109 () Entering maintenance mode
+0000.109 () Enabling Maintenance mode&#8230;
+0000.118 () Backup of: http://farmers-office.dev/wp
+0000.119 () Site home: http://farmers-office.dev
+0000.119 () Content URL: http://farmers-office.dev/app
+0000.119 () Uploads URL: http://farmers-office.dev/app/uploads
+0000.119 () Old table prefix: wp_
+0000.120 () Site information: multisite=0
+0000.124 () New table prefix: wp_
+0000.133 () Processing table (InnoDB): wp_options
+0000.279 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0000.291 () No search/replace required: would-be search and replacement are identical
+0000.291 () Processing table (InnoDB): wp_users
+0000.312 () No search/replace required: would-be search and replacement are identical
+0000.312 () Processing table (InnoDB): wp_usermeta
+0000.330 () No search/replace required: would-be search and replacement are identical
+0000.331 () Processing table (InnoDB): wp_commentmeta
+0000.357 () No search/replace required: would-be search and replacement are identical
+0000.357 () Processing table (InnoDB): wp_comments
+0000.396 () No search/replace required: would-be search and replacement are identical
+0000.396 () Processing table (InnoDB): wp_links
+0000.415 () No search/replace required: would-be search and replacement are identical
+0000.415 () Processing table (InnoDB): wp_postmeta
+0000.445 () No search/replace required: would-be search and replacement are identical
+0000.445 () Processing table (InnoDB): wp_posts
+0000.479 () No search/replace required: would-be search and replacement are identical
+0000.479 () Processing table (InnoDB): wp_term_relationships
+0000.505 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0000.505 () Processing table (InnoDB): wp_term_taxonomy
+0000.530 () No search/replace required: would-be search and replacement are identical
+0000.531 () Processing table (InnoDB): wp_termmeta
+0000.551 () No search/replace required: would-be search and replacement are identical
+0000.552 () Processing table (InnoDB): wp_terms
+0000.569 () No search/replace required: would-be search and replacement are identical
+0000.569 () Processing table (InnoDB): wp_learndash_user_activity
+0000.595 () No search/replace required: would-be search and replacement are identical
+0000.595 () Processing table (InnoDB): wp_learndash_user_activity_meta
+0000.610 () No search/replace required: would-be search and replacement are identical
+0000.610 () Processing table (InnoDB): wp_wp_pro_quiz_category
+0000.622 () No search/replace required: would-be search and replacement are identical
+0000.622 () Processing table (InnoDB): wp_wp_pro_quiz_form
+0000.636 () No search/replace required: would-be search and replacement are identical
+0000.636 () Processing table (InnoDB): wp_wp_pro_quiz_lock
+0000.647 () Database queries processed: 50 in 0.56 seconds
+0000.648 () No search/replace required: would-be search and replacement are identical
+0000.649 () Processing table (InnoDB): wp_wp_pro_quiz_master
+0000.664 () No search/replace required: would-be search and replacement are identical
+0000.665 () Processing table (InnoDB): wp_wp_pro_quiz_prerequisite
+0000.681 () No search/replace required: would-be search and replacement are identical
+0000.681 () Processing table (InnoDB): wp_wp_pro_quiz_question
+0000.698 () No search/replace required: would-be search and replacement are identical
+0000.698 () Processing table (InnoDB): wp_wp_pro_quiz_statistic
+0000.710 () No search/replace required: would-be search and replacement are identical
+0000.710 () Processing table (InnoDB): wp_wp_pro_quiz_statistic_ref
+0000.724 () No search/replace required: would-be search and replacement are identical
+0000.724 () Processing table (InnoDB): wp_wp_pro_quiz_template
+0000.736 () No search/replace required: would-be search and replacement are identical
+0000.736 () Processing table (InnoDB): wp_wp_pro_quiz_toplist
+0000.748 () Unlocking database and leaving maintenance mode
+0000.749 () Disabling Maintenance mode&#8230;
+0000.751 () No search/replace required: would-be search and replacement are identical
+0000.752 () Finished: lines processed: 66 in 0.67 seconds
+0000.752 () Cleaning up rubbish...
+0000.753 () Begin search and replace (updraftplus_restored_db)
+0000.754 () [Database-replace-site-url] Database: search and replace site URL
+0000.762 () Entity: plugins
+0000.762 () restore_backup(backup_file=backup_2017-10-10-2236_farmersofficecom_5aad3e3fafa2-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:51:"/srv/www/farmers-office.com/current/web/app/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.762 () Unpacking backup... (backup_2017-10-10-2236_farmersofficecom_5aad3e3fafa2-plugins.zip, 13.5 Mb)
+0011.749 () Moving old data: filesystem method / updraft_dir is potentially possible
+0011.750 () Moving old data: can potentially use wp_filesystem method / -old
+0011.750 () Moving old data out of the way...
+0013.207 () Top-level entities being moved: .gitkeep, advanced-custom-fields-pro, custom-post-type-ui, github-updater, safe-redirect-manager, secupress, soil, updraftplus, wordpress-importer, wp-sync-db, wp-sync-db-media-files
+0013.224 () Moving unpacked backup into place...
+0016.285 () Top-level entities being moved: .gitkeep, advanced-custom-fields-pro, custom-post-type-ui, github-updater, learndash-propanel, safe-redirect-manager, secupress, sfwd-lms, soil, updraftplus, wp-sync-db, wp-sync-db-media-files
+0016.316 () Cleaning up rubbish...
+0016.324 () Entity: themes
+0016.324 () restore_backup(backup_file=backup_2017-10-10-2236_farmersofficecom_5aad3e3fafa2-themes.zip, type=themes, info=a:2:{s:4:"path";s:50:"/srv/www/farmers-office.com/current/web/app/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0016.324 () Unpacking backup... (backup_2017-10-10-2236_farmersofficecom_5aad3e3fafa2-themes.zip, 52.1 Mb)
+0099.520 () Moving old data: filesystem method / updraft_dir is potentially possible
+0099.523 () Moving old data: can potentially use wp_filesystem method / -old
+0099.524 () Moving old data out of the way...
+0112.191 () Top-level entities being moved: .gitkeep, sage
+0112.204 () Moving unpacked backup into place...
+0125.347 () Top-level entities being moved: .gitkeep, sage
+0125.358 () Cleaning up rubbish...

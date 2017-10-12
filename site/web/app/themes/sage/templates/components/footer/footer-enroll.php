@@ -5,13 +5,15 @@
         </h3>
     <?php endif; ?>
 
-    <?php if (get_field('enroll-text')) : ?>
+    <?php if (get_field('enroll_text')) : ?>
         <p>
-            <?php the_field('enroll-text'); ?>
+            <?php the_field('enroll_text'); ?>
         </p>
     <?php endif; ?>
 
+    <div class="box"></div>
+
     <?php if (get_field('enroll_link')) : ?>
-        <a href="<?php the_field('enroll_link'); ?>">Enroll Now</a>
+        <a class="enrollTxt" href="<?php the_field('enroll_link'); ?>">Enroll Now</a>
     <?php endif; ?>
 </section>
