@@ -1,0 +1,4 @@
+0000.151 (R) [notice] Looking for plugins archive: file name: backup_2017-10-10-2236_farmersofficecom_5aad3e3fafa2-plugins.zip
+0000.159 (R) [notice] Archive is expected to be size: 13874.5 KB: OK
+0000.193 (R) [warning] Error: Existing unremoved folders from a previous restore exist (please use the "Delete Old Directories" button to delete them before trying again): /srv/www/farmers-office.com/current/web/app/plugins-old
+0000.202 (R) [notice] Restore failed...
