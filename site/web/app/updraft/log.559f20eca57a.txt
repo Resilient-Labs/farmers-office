@@ -1,0 +1,8 @@
+0000.020 () Opened log file at time: Tue, 10 Oct 2017 23:20:40 +0000 on http://farmers-office.dev/wp
+0000.022 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.13.1.1 WP: 4.7.3 PHP: 7.0.24-1+ubuntu16.04.1+deb.sury.org+1 (fpm-fcgi, Linux farmers-office 4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 09:04:33 UTC 2017 x86_64) MySQL: 5.5.5 WPLANG: en_US Server: nginx/1.13.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.3M | 14M) multisite: N openssl: OpenSSL 1.1.0f  25 May 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.027 () Free space on disk containing Updraft's temporary directory: 204994.4 MB
+0000.035 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":true,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.188 () Error message: Existing unremoved folders from a previous restore exist (please use the "Delete Old Directories" button to delete them before trying again): /srv/www/farmers-office.com/current/web/app/plugins-old
+0000.197 () Restore failed...
+0000.205 () Error message: Existing unremoved folders from a previous restore exist (please use the "Delete Old Directories" button to delete them before trying again): /srv/www/farmers-office.com/current/web/app/plugins-old
+0000.207 () Restore failed
