@@ -1,6 +1,6 @@
 <section class="landing-video">
     <?php // inspect this to see what element it renders as ?>
-   <!-- <?php if (get_field('video')) : ?>
+    <?php if (get_field('video')) : ?>
         <?php the_field('video'); ?>
     <?php endif; ?>
 
@@ -14,7 +14,7 @@
                 <?php endif; ?>
             <?php endwhile; ?>
         <?php endif; ?>
-    </ul> -->
+    </ul> 
 
     <?php if (get_field('brochure')) : ?>
         <a href="<?php the_field('brochure'); ?>" download>Download Brochure</a>

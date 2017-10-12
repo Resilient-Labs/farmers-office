@@ -1,75 +1,64 @@
+$brand-primary: #993333
+
 footer
     height: 350px
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 35%, rgba(229, 45, 39, 0.15) 80%)
 
-    .get_Started_Txt
-        color: #993333
-        font-weight: 100
+    h1
+        color: $brand-primary
         text-align: center
-        margin: 0 
+        margin: 0 auto
         padding: 0
-        font-size: 3em
         position: relative
         top: 30px
-         
+
+    a
+        text-decoration: none
 
     .enroll_Now_Button
         position: relative
-        left: 43%
-        top: 78px
+        top: 120px
         background: white
         box-shadow: 1px 4px 7px 1px lightgrey
-        color: #933
+        color: $brand-primary
         font-size: 1.2em
-        font-weight: 100
         height: 45px
-        width: 185px
-        margin-top: 55px
+        padding: 15px 30px
+        display: block
+        margin: 0 auto
+
+@media only screen and (max-width: 1024px)
+    footer
+        padding-left: 0px
+        padding-right: 0px
+
+        h1 
+            position: relative
+            top: 50px
+
+        .enroll_Now_Button 
+            position: relative
+
+@media only screen and (max-width: 768px)
+    footer
+        padding-left: 0px
+        padding-right: 0px
+
+        h1
+            position: relative
+            top: 50px
+
+        .enroll_Now_Button 
+            position: relative
 
 @media only screen and (max-width: 480px)
     footer
         padding-left: 0px
         padding-right: 0px
 
-        .get_Started_Txt 
-            font-size: 2.5em
-            right: 3%
-            bottom: 6%
-
         .enroll_Now_Button 
             position: relative
-            left: 30%
-
-                
-@media only screen and (max-width: 768px)
-    footer
-        padding-left: 0px
-        padding-right: 0px
-
-        .get_Started_Txt 
-            font-size: 2.5em
-            position: relative
-            top: 50px
 
 
-        .enroll_Now_Button 
-            position: relative
-            left: 38.5%
-
-                
-@media only screen and (max-width: 1024px)
-    footer
-        padding-left: 0px
-        padding-right: 0px
-
-        .get_Started_Txt 
-            font-size: 3em
-            position: relative
-            top: 50px
-
-
-        .enroll_Now_Button 
-            position: relative
-            left: 40%
-
+            
 
