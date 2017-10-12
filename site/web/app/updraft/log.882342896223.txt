@@ -1,0 +1,30 @@
+0000.011 () Opened log file at time: Wed, 11 Oct 2017 19:30:36 +0000 on http://farmers-office.dev/wp
+0000.011 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.13.1.1 WP: 4.7.3 PHP: 7.0.24-1+ubuntu16.04.1+deb.sury.org+1 (fpm-fcgi, Linux farmers-office 4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 09:04:33 UTC 2017 x86_64) MySQL: 5.5.5 WPLANG: en_US Server: nginx/1.13.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 40.9M | 32M) multisite: N openssl: OpenSSL 1.1.0f  25 May 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.012 () Free space on disk containing Updraft's temporary directory: 203714.6 MB
+0000.012 () Restore job started. Entities to restore: themes, uploads, others. Restore options: {"updraft_restorer_replacesiteurl":true,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.060 () Entity: themes
+0000.060 () restore_backup(backup_file=backup_2017-10-10-2236_farmersofficecom_5aad3e3fafa2-themes.zip, type=themes, info=a:2:{s:4:"path";s:50:"/srv/www/farmers-office.com/current/web/app/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0000.060 () Unpacking backup... (backup_2017-10-10-2236_farmersofficecom_5aad3e3fafa2-themes.zip, 52.1 Mb)
+0069.937 () /srv/www/farmers-office.com/current/web/app/updraft/themes-old: This directory already exists, and will be replaced
+0083.064 () Moving old data: filesystem method / updraft_dir is potentially possible
+0083.064 () /srv/www/farmers-office.com/current/web/app/themes-old: This directory already exists, and will be replaced
+0083.067 () Moving old data: can potentially use wp_filesystem method / -old
+0083.067 () Moving old data out of the way...
+0095.000 () Top-level entities being moved: .gitkeep, sage
+0095.009 () Moving unpacked backup into place...
+0105.624 () Top-level entities being moved: .gitkeep, sage
+0105.632 () Cleaning up rubbish...
+0105.638 () Entity: uploads
+0105.639 () restore_backup(backup_file=backup_2017-10-10-2236_farmersofficecom_5aad3e3fafa2-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:51:"/srv/www/farmers-office.com/current/web/app/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0105.639 () Unpacking backup... (backup_2017-10-10-2236_farmersofficecom_5aad3e3fafa2-uploads.zip, 0 Mb)
+0105.673 () Moving old data: filesystem method / updraft_dir is potentially possible
+0105.674 () Moving old data: can potentially use wp_filesystem method / -old
+0105.675 () Moving old data out of the way...
+0105.690 () Moving unpacked backup into place...
+0105.709 () Cleaning up rubbish...
+0105.713 () Entity: others
+0105.713 () restore_backup(backup_file=backup_2017-10-10-2236_farmersofficecom_5aad3e3fafa2-others.zip, type=others, info=a:2:{s:4:"path";s:43:"/srv/www/farmers-office.com/current/web/app";s:11:"description";s:6:"Others";}, last_one=1)
+0105.713 () Unpacking backup... (backup_2017-10-10-2236_farmersofficecom_5aad3e3fafa2-others.zip, 0 Mb)
+0105.730 () Cleaning up rubbish...
+0105.755 () Restore successful!
+0105.755 () Restore successful
