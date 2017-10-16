@@ -1,0 +1,65 @@
+0000.041 (R) [notice] Looking for db archive: file name: backup_2017-10-12-1451_farmersofficecom_cfb5d62f59f0-db.gz
+0000.042 (R) [notice] Archive is expected to be size: 209.7 KB: OK
+0000.049 (R) [notice] Looking for plugins archive: file name: backup_2017-10-12-1451_farmersofficecom_cfb5d62f59f0-plugins.zip
+0000.050 (R) [notice] Archive is expected to be size: 13874.5 KB: OK
+0000.054 (R) [notice] Looking for themes archive: file name: backup_2017-10-12-1451_farmersofficecom_cfb5d62f59f0-themes.zip
+0000.054 (R) [notice] Archive is expected to be size: 54614.1 KB: OK
+0000.057 (R) [notice] Looking for uploads archive: file name: backup_2017-10-12-1451_farmersofficecom_cfb5d62f59f0-uploads.zip
+0000.058 (R) [notice] Archive is expected to be size: 1035.1 KB: OK
+0000.061 (R) [notice] Looking for others archive: file name: backup_2017-10-12-1451_farmersofficecom_cfb5d62f59f0-others.zip
+0000.061 (R) [notice] Archive is expected to be size: 2.8 KB: OK
+0000.071 (R) [notice] Unpacking backup... (backup_2017-10-12-1451_farmersofficecom_cfb5d62f59f0-db.gz, 0.2 Mb)
+0000.093 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.117 (R) [notice] Enabling Maintenance mode&#8230;
+0000.130 (R) [notice] Backup of: http://farmers-office.dev/wp
+0000.131 (R) [notice] Site home: http://farmers-office.dev
+0000.131 (R) [notice] Content URL: http://farmers-office.dev/app
+0000.131 (R) [notice] Uploads URL: http://farmers-office.dev/app/uploads
+0000.131 (R) [notice] Old table prefix: wp_
+0000.131 (R) [notice] Site information: multisite = 0
+0000.132 (R) [notice] New table prefix: wp_
+0000.142 (R) [notice] Processing table (InnoDB):  wp_options
+0000.369 (R) [notice] Processing table (InnoDB):  wp_users
+0000.412 (R) [notice] Processing table (InnoDB):  wp_usermeta
+0000.451 (R) [notice] Processing table (InnoDB):  wp_commentmeta
+0000.487 (R) [notice] Processing table (InnoDB):  wp_comments
+0000.544 (R) [notice] Processing table (InnoDB):  wp_links
+0000.575 (R) [notice] Processing table (InnoDB):  wp_postmeta
+0000.623 (R) [notice] Processing table (InnoDB):  wp_posts
+0000.679 (R) [notice] Processing table (InnoDB):  wp_term_relationships
+0000.713 (R) [notice] Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0000.713 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy
+0000.755 (R) [notice] Processing table (InnoDB):  wp_termmeta
+0000.785 (R) [notice] Processing table (InnoDB):  wp_terms
+0000.821 (R) [notice] Processing table (InnoDB):  wp_learndash_user_activity
+0000.865 (R) [notice] Processing table (InnoDB):  wp_learndash_user_activity_meta
+0000.894 (R) [notice] Processing table (InnoDB):  wp_wp_pro_quiz_category
+0000.913 (R) [notice] Processing table (InnoDB):  wp_wp_pro_quiz_form
+0000.935 (R) [notice] Processing table (InnoDB):  wp_wp_pro_quiz_lock
+0000.958 (R) [notice] Database queries processed: 50 in 0.86 seconds
+0000.959 (R) [notice] Processing table (InnoDB):  wp_wp_pro_quiz_master
+0000.980 (R) [notice] Processing table (InnoDB):  wp_wp_pro_quiz_prerequisite
+0001.000 (R) [notice] Processing table (InnoDB):  wp_wp_pro_quiz_question
+0001.027 (R) [notice] Processing table (InnoDB):  wp_wp_pro_quiz_statistic
+0001.052 (R) [notice] Processing table (InnoDB):  wp_wp_pro_quiz_statistic_ref
+0001.077 (R) [notice] Processing table (InnoDB):  wp_wp_pro_quiz_template
+0001.096 (R) [notice] Processing table (InnoDB):  wp_wp_pro_quiz_toplist
+0001.115 (R) [notice] Disabling Maintenance mode&#8230;
+0001.116 (R) [notice] Finished: lines processed: 66 in 1.02 seconds
+0001.117 (R) [notice] Cleaning up rubbish...
+0001.118 (R) [notice] Nothing to do: the site URL is already: http://farmers-office.dev/wp
+0001.125 (R) [notice] Unpacking backup... (backup_2017-10-12-1451_farmersofficecom_cfb5d62f59f0-plugins.zip, 13.5 Mb)
+0010.613 (R) [notice] Moving old data out of the way...
+0012.214 (R) [notice] Moving unpacked backup into place...
+0014.164 (R) [notice] Cleaning up rubbish...
+0014.171 (R) [notice] Unpacking backup... (backup_2017-10-12-1451_farmersofficecom_cfb5d62f59f0-themes.zip, 53.3 Mb)
+0077.977 (R) [notice] Moving old data out of the way...
+0093.226 (R) [notice] Moving unpacked backup into place...
+0105.118 (R) [notice] Cleaning up rubbish...
+0105.126 (R) [notice] Unpacking backup... (backup_2017-10-12-1451_farmersofficecom_cfb5d62f59f0-uploads.zip, 1 Mb)
+0105.240 (R) [notice] Moving old data out of the way...
+0105.252 (R) [notice] Moving unpacked backup into place...
+0105.267 (R) [notice] Cleaning up rubbish...
+0105.271 (R) [notice] Unpacking backup... (backup_2017-10-12-1451_farmersofficecom_cfb5d62f59f0-others.zip, 0 Mb)
+0105.288 (R) [notice] Cleaning up rubbish...
+0105.316 (R) [notice] Restore successful!
