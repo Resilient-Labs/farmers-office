@@ -1,1 +1,0 @@
-{"version":3,"sources":["../assets/scripts/custom.js"],"names":["console","log"],"mappings":"CAAA,WACAA,QAAAC,IAAA","file":"custom.js","sourcesContent":["(function() {\n    console.log(\"custom loaded\");\n})();"],"sourceRoot":"assets/scripts/"}
