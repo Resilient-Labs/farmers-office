@@ -1,9 +1,22 @@
 <div class="resource-card">
+    <?php if ( get_the_title() ) : ?>   
+        <h2 class="resource-title one">
+            <?php the_title(); ?>
+        </h2>
+    <?php endif; ?>
+
     <?php if (get_the_category() ) : ?>
-        <span class="resource-category">
+        <span class="resource-category two">
             <?php foreach((get_the_category()) as $category) { echo $category->cat_name . ' '; } ?>
         </span>
     <?php endif; ?>
+
+    <?php if ( get_the_content() ) : ?>
+        <div class="resource-content three">
+            <?php the_content(); ?>
+        </div>
+    <?php endif; ?>
+
     <?php if ( get_the_title() ) : ?>
         <h2 class="resource-title">
             <?php the_title(); ?>
