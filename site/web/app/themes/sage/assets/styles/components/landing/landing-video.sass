@@ -1,0 +1,96 @@
+.landing-video
+    float: left
+    margin-top: 130px
+
+    
+    ul .bullets
+        float: left
+        width: 50%
+        color: black
+        list-style-type: none
+        text-indent: -55px
+        padding-right: 355px
+        margin-top: 35px
+        
+    
+    ul .bullets::before 
+        color: #993333
+        content: "\2022"
+        padding-right: 10px
+        padding-left: 35px
+        font-size: 20px
+      
+
+    .video
+        float: left
+        width: 50%
+        padding-left: 30px
+        margin-bottom: 90px
+        
+        iframe
+            width: 90%
+            height: 350px
+    
+    a
+      color: red
+      font-size: small
+      float: left
+      margin-top: 25px
+    
+    
+
+
+@media only screen and (max-width: 768px)
+
+    .landing-video
+         ul .bullets
+            padding-right: 0
+            // margin: 0 auto
+            float: left
+         
+
+         .video
+            float: left
+            width: 50%
+            padding-left: 30px
+            margin-bottom: 0px
+
+
+         a
+            color: red
+            font-size: small
+            float: left
+            margin: 10px 0px 40px 0px
+
+    @media only screen and (max-width: 480px)
+    
+        .landing-video
+       
+            ul .bullets
+                padding-right: 0
+                margin: 0 auto
+                float: none
+                width: 85%
+            
+
+            .video
+                float: none
+                padding-left: 30px
+                margin-bottom: 0px
+
+                iframe
+                    width: 200%
+                
+            
+            a
+                color: red
+                font-size: small
+                float: none
+                margin: 0 auto
+                text-align: center
+                display: block
+                
+
+
+
+            
