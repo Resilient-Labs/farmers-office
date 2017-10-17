@@ -1,6 +1,7 @@
 .footer-books
     position: relative
-    height: 310px
+    padding: 30px 45px
+    
     .footer-book
         background-color: #993333
         width: 50%
@@ -8,28 +9,30 @@
         border-right: 1px solid white
         height: 220px
         
-        .descrip
+        p
             width: 45%
             margin-left: 260px
-            height: 108px
+            height: 95px
+            color: white
             
         
-        .author
+        small
             text-align: left
             position: absolute
-            top: 45px
+            top: 82px
             padding-left: 45px
             color: white
 
-        .img
+        img
             float: left
-            margin-top: 20px
-            margin-left: 45px
-            box-shadow: 0px 3px 3px #888888 
+            margin-top: 10px
+            padding-left: 45px
+            box-shadow: 1px 0px 0px #888888 
 
         h3 
             color: white
             padding-left: 45px
+            padding-top: 4px
         
         a 
             border: black 1px solid
@@ -37,11 +40,7 @@
             margin-left: 45px
             color: #993333
             text-decoration: none
-            padding-left: 35px
-            padding-right: 35px
-            padding-bottom: 3px
-            padding-top: 3px
-            width: 10%
+            padding: 3px 25px
             box-shadow: 3px 3px 3px #000000
     
 @media only screen and (max-width: 768px)
@@ -49,16 +48,24 @@
     .footer-books
         .footer-book
             height: 245px
-            .descrip
-                width: 30%
-                margin-left: 240px
-                height: 108px
-                font-size: 12px
+            p
+                margin-left: 165px
+                font-size: 11px
                 margin-bottom: 40px
-            .img
-                margin-left: 25px
+                padding-left: 25px
+                height: 95px
+            img
+                padding-left: 5px
+                margin-top: 0px
             a  
                 margin-left: 15px
+                font-size: 12px
+                padding: 3px 10px
+            h3 
+                padding-left: 15px
+            small
+                    top: 76px
+                    padding-left: 17px
 
 @media only screen and (max-width: 480px)
      .footer-books
@@ -72,19 +79,20 @@
                 padding-left: 30px
                 padding-top: 10px
 
-            .author
+            small
                 position: relative
-                top: 0
-                right: 170px
+                top: -20px
+                right: 155px
                 padding-left: 7px
                 color: white
 
-            .descrip
+            p
                 margin-bottom: 30px
                 font-size: 12px
+                height: 102px
             
             a  
-                margin-left: 30px
+                margin-left: 15px
 
 
 
