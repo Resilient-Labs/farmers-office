@@ -6,3 +6,4 @@
   <?php get_template_part('templates/components/testimonials/testimonial-brett'); ?>
   <?php get_template_part('templates/components/landing/landing-pricing'); ?>
 <?php endwhile; ?>
+<?php wp_reset_postdata(); ?>

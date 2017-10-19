@@ -1,0 +1,4 @@
+0000.000 (1) Opened log file at time: Thu, 12 Oct 2017 15:30:02 +0000 on http://farmers-office.dev/wp
+0000.003 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.13.1.1 WP: 4.7.3 PHP: 7.0.24-1+ubuntu16.04.1+deb.sury.org+1 (cli, Linux farmers-office 4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 09:04:33 UTC 2017 x86_64) MySQL: 5.5.5 WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 34.9M | 36M) multisite: N openssl: OpenSSL 1.1.0f  25 May 2017 mcrypt: Y LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.005 (1) Free space on disk containing Updraft's temporary directory: 202772.2 MB
+0000.009 (1) This backup task (cfb5d62f59f0) is either complete or began over 2 days ago: ending (1507822202.6123, ) (existing jobdata keys: )

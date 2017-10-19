@@ -5,9 +5,9 @@
         </h3>
     <?php endif; ?>
 
-    <?php if (get_field('enroll-text')) : ?>
+    <?php if (get_field('enroll_text')) : ?>
         <p>
-            <?php the_field('enroll-text'); ?>
+            <?php the_field('enroll_text'); ?>
         </p>
     <?php endif; ?>
 
