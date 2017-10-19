@@ -14,7 +14,9 @@
     <?php endif; ?> 
 
     <?php if (get_field('help_banner_link')) : ?>
-        <?php the_field('help_banner_link'); ?>
+        <a href="<?php the_field('help_banner_link'); ?>">
+            Get Started with the Farmer’s Office
+            </a>
     <?php else : ?>
         <a href="#">Get Started with the Farmer’s Office</a>
     <?php endif; ?> 
