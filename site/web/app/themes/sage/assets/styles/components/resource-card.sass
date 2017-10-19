@@ -1,7 +1,7 @@
 .resource-card
-    float: left
     width: 45%
-    height: 200px
+    height: auto
+    flex: 0 1 auto
     margin: 22.5px 2.5%
     padding: 15px
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
@@ -27,16 +27,12 @@
         -moz-text-decoration-color: #E52D27
         font-size: 14px
 
-.resources:after
-  content: ""
-  display: table
-  clear: both
+section.resources
+    display: flex
+    flex-flow: row wrap
 
-@media screen and (max-width: 770px)
-    .resource-card
-        height: 250px
-
-@media screen and (max-width: 770px)
+@media screen and (max-width: 768px)
     .resource-card
         width: 90%
         margin: 22.5px 5%
+        min-height: 200px
