@@ -2,7 +2,7 @@
     <?php if (get_field('help_banner_headline')) : ?>
         <h2><?php the_field('help_banner_headline'); ?></h2>
     <?php else : ?>
-        <h2>Need more help?</h2>
+        <h2 class="title">Need more help?</h2>
     <?php endif; ?>   
 
     <?php if (get_field('help_banner_text')) : ?>
@@ -14,7 +14,9 @@
     <?php endif; ?> 
 
     <?php if (get_field('help_banner_link')) : ?>
-        <?php the_field('help_banner_link'); ?>
+        <a href="<?php the_field('help_banner_link'); ?>">
+            Get Started with the Farmer’s Office
+            </a>
     <?php else : ?>
         <a href="#">Get Started with the Farmer’s Office</a>
     <?php endif; ?> 
