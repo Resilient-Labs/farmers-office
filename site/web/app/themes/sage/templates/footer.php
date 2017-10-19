@@ -6,9 +6,9 @@
     <?php if ( !is_page_template('page-login.php') ): ?>
       <?php get_template_part('templates/components/footer/footer-enroll'); ?>
       <?php get_template_part('templates/components/footer/footer-books'); ?>
+      <?php get_template_part('templates/components/footer/footer-footnote'); ?>
+    <?php else: ?>
+      <?php get_template_part('templates/components/footer/footer-footnote'); ?>
     <?php endif; ?>
-    <?php get_template_part('templates/components/footer/footer-books'); ?>
-    <?php get_template_part('templates/components/footer/footer-footnote'); ?>
-    
   <?php endif; ?>
 </footer>
